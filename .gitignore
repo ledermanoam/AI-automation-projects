@@ -1,0 +1,45 @@
+# ─── Secrets / credentials ────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+*secret*
+*token*
+
+# ─── Python ───────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.Python
+
+# ─── Pytest & test artifacts ──────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+reports/*
+!reports/.gitkeep
+
+# ─── Playwright ───────────────────────────────────────────────────
+.playwright/
+playwright-report/
+test-results/
+
+# ─── IDE / editor ─────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# ─── Claude (local-only) ──────────────────────────────────────────
+CLAUDE.local.md
+.claude/settings.local.json
+
+# ─── Logs ─────────────────────────────────────────────────────────
+*.log

@@ -1,0 +1,9 @@
+# Test automation framework dependencies
+
+pytest==8.3.5              # Main testing framework
+pytest-playwright==0.6.2   # Playwright plugin for pytest (UI tests)
+playwright==1.50.0          # Browser automation library
+requests==2.32.3            # HTTP library for API tests
+pytest-html==4.1.1          # Generates HTML test reports
+pytest-json-report==1.5.0   # Generates JSON test reports (used by runner_agent)
+pytest-asyncio==0.24.0      # Async support for pytest
