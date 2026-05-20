@@ -1,5 +1,7 @@
 # Test Automation — Online Boutique
 
+[![CI](https://github.com/ledermanoam/AI-automation-projects/actions/workflows/ci.yml/badge.svg)](https://github.com/ledermanoam/AI-automation-projects/actions/workflows/ci.yml)
+
 ## What This Is
 
 This is an automated test suite for the **Online Boutique** web application running at
